@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    background-color: #090907;
+    color: #F5F5F0;
+  }
+}
+
+/* Custom scrollbars matching the dark financial intelligence aesthetic */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0E0D0A;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2D2820;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4B3A22;
+}
+
